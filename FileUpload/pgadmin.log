@@ -1,0 +1,474 @@
+2016-05-17 21:04:45 ERROR  : FATAL:  no existe la base de datos «alcaldia»
+
+2016-05-17 21:04:56 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-05-17 21:04:59 ERROR  : FATAL:  no existe la base de datos «alcaldia»
+
+2016-05-17 21:33:08 ERROR  : ERROR:  structure of query does not match function result type
+DETAIL:  La cantidad de columnas retornadas (0) no coincide con la cantidad esperada de columnas (3).
+CONTEXT:  función PL/pgSQL f_loggin(character varying,character varying) en la línea 4 en RETURN QUERY
+2016-08-01 07:24:58 ERROR  : ERROR:  error de sintaxis en o cerca de «END»
+LINE 48:  END; 
+          ^
+2016-08-04 15:32:14 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo timestamp: «imonje»
+LINE 1: ...'::character varying(100), '5'::double precision, 'imonje'::...
+                                                             ^
+2016-08-04 15:32:27 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo timestamp: «imonje»
+LINE 1: ...::character varying(100), '.0'::double precision, 'imonje'::...
+                                                             ^
+2016-08-04 15:32:27 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo timestamp: «imonje»
+LINE 1: ...::character varying(100), '.0'::double precision, 'imonje'::...
+                                                             ^
+2016-08-04 15:32:34 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo double precision: «5,0»
+LINE 1: ...), 'Registro Plataforma'::character varying(100), '5,0'::dou...
+                                                             ^
+2016-08-04 15:32:37 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo double precision: «5,0»
+LINE 1: ...), 'Registro Plataforma'::character varying(100), '5,0'::dou...
+                                                             ^
+2016-08-04 15:32:50 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo double precision: «5,0»
+LINE 1: ...), 'Registro Plataforma'::character varying(100), '5,0'::dou...
+                                                             ^
+2016-08-04 15:32:58 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo timestamp: «imonje»
+LINE 1: ...:character varying(100), '5.0'::double precision, 'imonje'::...
+                                                             ^
+2016-08-04 15:33:01 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo timestamp: «imonje»
+LINE 1: ...:character varying(100), '5.0'::double precision, 'imonje'::...
+                                                             ^
+2016-08-04 15:33:09 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo timestamp: «imonje»
+LINE 1: ...:character varying(100), '5.0'::double precision, 'imonje'::...
+                                                             ^
+2016-08-04 15:33:15 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo timestamp: «imonje»
+LINE 1: ...:character varying(100), '5.0'::double precision, 'imonje'::...
+                                                             ^
+2016-08-04 15:33:36 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo timestamp: «2016/085/03 15:32»
+LINE 1: ...'::character varying(100), '5'::double precision, '2016/085/...
+                                                             ^
+2016-08-04 15:49:56 ERROR  : ERROR:  error de sintaxis en o cerca de «_id»
+LINE 104:      _id
+               ^
+2016-08-04 15:50:01 ERROR  : ERROR:  error de sintaxis en o cerca de «5»
+LINE 105:      5
+               ^
+2016-08-04 15:50:04 ERROR  : ERROR:  error de sintaxis en o cerca de «(»
+LINE 106:      (CURRENT_TIMESTAMP),
+               ^
+2016-08-13 08:16:34 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-08-13 08:28:21 ERROR  : ERROR:  no existe la relación «usuario»
+LINE 1: SELECT * FROM usuario
+                      ^
+2016-08-13 08:28:34 ERROR  : ERROR:  no existe la relación «usuario»
+LINE 1: SELECT * FROM usuario;
+                      ^
+2016-08-13 08:40:53 ERROR  : ERROR:  la consulta no tiene un destino para los datos de resultado
+HINT:  Si quiere descartar los resultados de un SELECT, utilice PERFORM.
+CONTEXT:  función PL/pgSQL f_loggin(character varying,character varying) en la línea 4 en sentencia SQL
+2016-08-13 08:41:20 ERROR  : ERROR:  no se puede cambiar el tipo de retorno de una función existente
+HINT:  Use DROP FUNCTION f_loggin(character varying,character varying) primero.
+2016-08-13 08:41:25 ERROR  : ERROR:  no existe el esquema «puntos»
+2016-08-13 08:41:35 ERROR  : ERROR:  no existe el esquema «puntos»
+2016-08-13 08:41:42 ERROR  : ERROR:  no existe la función f_loggin()
+2016-08-13 08:42:02 ERROR  : ERROR:  structure of query does not match function result type
+DETAIL:  El tipo retornado character varying(50) no coincide con el tipo de registro esperado text en la columna 1.
+CONTEXT:  función PL/pgSQL f_loggin(character varying,character varying) en la línea 4 en RETURN QUERY
+2016-08-13 08:42:25 ERROR  : ERROR:  error de sintaxis en o cerca de «::»
+LINE 1: ::text
+        ^
+2016-08-20 07:42:50 ERROR  : ERROR:  structure of query does not match function result type
+DETAIL:  El tipo retornado character varying(50) no coincide con el tipo de registro esperado integer en la columna 1.
+CONTEXT:  función PL/pgSQL usuarios.f_obtener_estudiante() en la línea 4 en RETURN QUERY
+2016-08-20 09:59:36 ERROR  : ERROR:  error de sintaxis al final de la entrada
+LINE 17:   );
+            ^
+2016-08-25 07:22:30 ERROR  : ERROR:  el valor null para la columna «orden» viola la restricción not null
+DETAIL:  La fila que falla contiene (63, Productos Actuales, 19, OrdenesProduccion.aspx, null, null, null, null).
+2016-08-25 07:30:54 ERROR  : ERROR:  no existe la columna «rol_id»
+2016-09-10 08:15:53 ERROR  : ERROR:  ya existe un trigger «tg_usuario_usuario» para la relación «usuario»
+2016-09-10 08:15:54 ERROR  : ERROR:  ya existe un trigger «tg_usuario_usuario» para la relación «usuario»
+2016-09-10 08:20:34 ERROR  : ERROR:  error de sintaxis en o cerca de «boolean»
+LINE 9:   RETURNS SET boolean AS
+                      ^
+2016-09-10 08:20:45 ERROR  : ERROR:  error de sintaxis en o cerca de «CURRENT_TIMESTAMP»
+LINE 25:    CURRENT_TIMESTAMP,
+            ^
+2016-09-10 08:20:50 ERROR  : ERROR:  error de sintaxis en o cerca de «)»
+LINE 26:   );
+           ^
+2016-09-24 08:34:24 ERROR  : ERROR:  no existe el esquema «animales»
+2016-09-24 08:34:46 ERROR  : ERROR:  error de sintaxis al final de la entrada
+LINE 10: $BODY$
+         ^
+2016-09-24 08:35:16 ERROR  : ERROR:  error de sintaxis en o cerca de «BOOLEAN»
+LINE 2: RETURNS set BOOLEAN AS
+                    ^
+2016-09-24 08:35:26 ERROR  : ERROR:  RETURN no puede tener un parámetro en una función que retorna un conjunto
+LINE 9:  RETURN TRUE;
+                ^
+HINT:  Use RETURN NEXT o RETURN QUERY.
+2016-09-24 08:35:32 ERROR  : ERROR:  RETURN no puede tener un parámetro en una función que retorna un conjunto
+LINE 9:  RETURN SELECT TRUE;
+                ^
+HINT:  Use RETURN NEXT o RETURN QUERY.
+2016-09-24 08:35:43 ERROR  : ERROR:  error de sintaxis al final de la entrada
+LINE 10: $BODY$
+         ^
+2016-09-24 08:35:46 ERROR  : ERROR:  error de sintaxis al final de la entrada
+LINE 10: $BODY$
+         ^
+2016-09-24 09:58:43 ERROR  : ERROR:  fin inesperado de la definición de la función al final de la entrada
+LINE 16: $BODY$
+         ^
+2016-10-04 11:51:40 ERROR  : ERROR:  no existe la relación «cliente»
+LINE 9:    cliente c join compras cs on cs.id_cliente = c.id_cliente
+           ^
+2016-10-04 11:52:31 ERROR  : ERROR:  no se ha especificado el lenguaje
+2016-10-04 11:53:11 ERROR  : ERROR:  no existe el tipo «factura_view»
+2016-10-04 11:55:12 ERROR  : ERROR:  fin inesperado de la definición de la función al final de la entrada
+LINE 19: $body$
+         ^
+2016-10-04 11:55:50 ERROR  : ERROR:  la consulta no tiene un destino para los datos de resultado
+HINT:  Si quiere descartar los resultados de un SELECT, utilice PERFORM.
+CONTEXT:  función PL/pgSQL f_otener_factura() en la línea 3 en sentencia SQL
+2016-10-04 11:56:31 ERROR  : ERROR:  structure of query does not match function result type
+DETAIL:  El tipo retornado character varying no coincide con el tipo de registro esperado text en la columna 2.
+CONTEXT:  función PL/pgSQL f_otener_factura() en la línea 3 en RETURN QUERY
+2016-10-04 11:57:07 ERROR  : ERROR:  structure of query does not match function result type
+DETAIL:  El tipo retornado date no coincide con el tipo de registro esperado timestamp without time zone en la columna 4.
+CONTEXT:  función PL/pgSQL f_otener_factura() en la línea 3 en RETURN QUERY
+2016-10-04 11:57:32 ERROR  : ERROR:  structure of query does not match function result type
+DETAIL:  El tipo retornado date no coincide con el tipo de registro esperado timestamp without time zone en la columna 4.
+CONTEXT:  función PL/pgSQL f_otener_factura() en la línea 3 en RETURN QUERY
+2016-10-04 11:58:35 ERROR  : ERROR:  no se puede cambiar el tipo de dato de la columna «fecha» de la vista de timestamp without time zone a date
+2016-10-04 11:59:15 ERROR  : ERROR:  no se puede cambiar el tipo de dato de la columna «fecha» de la vista de timestamp without time zone a date
+2016-10-04 11:59:42 ERROR  : ERROR:  structure of query does not match function result type
+DETAIL:  El tipo retornado integer no coincide con el tipo de registro esperado double precision en la columna 5.
+CONTEXT:  función PL/pgSQL f_otener_factura() en la línea 3 en RETURN QUERY
+2016-10-04 12:21:38 ERROR  : ERROR:  inserción o actualización en la tabla «compra_producto» viola la llave foránea «id_compra»
+DETAIL:  La llave (id_compra)=(1) no está presente en la tabla «compras».
+2016-10-04 12:23:15 ERROR  : ERROR:  inserción o actualización en la tabla «compra_producto» viola la llave foránea «id_compra»
+DETAIL:  La llave (id_compra)=(1) no está presente en la tabla «compras».
+2016-10-04 12:23:20 ERROR  : ERROR:  inserción o actualización en la tabla «compra_producto» viola la llave foránea «id_compra»
+DETAIL:  La llave (id_compra)=(1) no está presente en la tabla «compras».
+2016-10-05 12:21:11 ERROR  : ERROR:  error de sintaxis en o cerca de «WHEN»
+LINE 12:     WHEN COUNT(*) = 0
+             ^
+2016-10-07 10:01:39 ERROR  : ERROR:  inserción o actualización en la tabla «produccion» viola la llave foránea «fk_produccion_producto»
+DETAIL:  La llave (producto_id)=(-1) no está presente en la tabla «producto».
+2016-10-07 10:10:51 ERROR  : ERROR:  no existe la columna «sticker_paquete»
+LINE 18:      sticker_paquete,
+              ^
+HINT:  Hay una columna llamada «sticker_paquete» en la tabla «puntos», pero no puede ser referenciada desde esta parte de la consulta.
+QUERY:  INSERT INTO puntos.puntos
+				(
+					produccion_id,
+					sticker_producto,
+					last_modified,
+					modified_by,
+					sticker_caja,
+					sticker_paquete,
+					no_paquete
+				)
+				VALUES 
+				(
+					-1,
+					_id_serial,
+					CURRENT_TIMESTAMP,
+					'imonje',
+					_id_serial,
+					sticker_paquete,
+					-1
+				)
+CONTEXT:  función PL/pgSQL puntos.sp_obtener_seriales(text,integer) en la línea 8 en sentencia SQL
+2016-10-07 10:16:24 ERROR  : ERROR:  la sintaxis de entrada no es válida para integer: «Darse de Alta»
+CONTEXT:  sentencia SQL: «SELECT
+			CASE
+				WHEN (SELECT MAX(factor_multiplicador) FROM puntos.campana pc JOIN puntos.detalle_campana pdc ON pdc.campana_id = pc.id WHERE (CURRENT_TIMESTAMP) BETWEEN pc.fecha_inicio AND pc.fecha_final AND pdc.producto_id = ppo.referencia::integer) ISNULL
+					THEN ppo.puntos
+				ELSE
+					ppo.puntos * (SELECT MAX(factor_multiplicador) FROM puntos.campana pc JOIN puntos.detalle_campana pdc ON pdc.campana_id = pc.id WHERE (CURRENT_TIMESTAMP) BETWEEN pc.fecha_inicio AND pc.fecha_final AND pdc.producto_id = ppo.referencia::integer) 
+			END
+			                             FROM
+			puntos.puntos pp JOIN puntos.produccion ppn ON ppn.id = pp.produccion_id
+			JOIN puntos.producto ppo ON ppo.id = ppn.producto_id
+		WHERE
+			pp.id = _id_serial»
+función PL/pgSQL puntos.sp_insertar_puntos(integer,integer,integer,character varying) en la línea 6 en sentencia SQL
+2016-10-07 10:41:06 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177336G625).
+2016-10-07 10:41:49 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177336G81).
+2016-10-07 10:42:30 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177336G121).
+2016-10-07 10:42:49 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177336G306).
+2016-10-07 10:43:08 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177336G984).
+2016-10-07 10:43:23 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177336G942).
+2016-10-07 10:43:41 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177336G289).
+2016-10-07 10:44:02 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177336G751).
+2016-10-07 10:44:28 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177336G502).
+2016-10-07 10:44:48 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177336G197).
+2016-10-07 10:45:07 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177336G478).
+2016-10-07 10:45:14 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177336G572).
+2016-10-07 10:45:28 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177336G307).
+2016-10-07 10:53:00 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177334L1031).
+2016-10-07 10:53:39 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177334L729).
+2016-10-07 10:53:52 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177334L834).
+2016-10-07 11:04:21 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6178).
+2016-10-07 11:05:07 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6185).
+2016-10-07 11:19:41 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6245).
+2016-10-07 11:20:08 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6255).
+2016-10-07 11:20:34 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6361).
+2016-10-07 11:20:50 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6402).
+2016-10-07 11:20:57 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6403).
+2016-10-07 11:21:06 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6409).
+2016-10-07 11:21:50 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6418).
+2016-10-07 11:21:56 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6425).
+2016-10-07 11:22:05 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6457).
+2016-10-07 11:22:11 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6482).
+2016-10-07 11:22:19 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6518).
+2016-10-07 11:22:26 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6536).
+2016-10-07 11:22:34 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6589).
+2016-10-07 11:22:41 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6604).
+2016-10-07 11:22:48 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6608).
+2016-10-07 11:22:55 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6631).
+2016-10-07 11:23:49 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6676).
+2016-10-07 11:25:03 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6676).
+2016-10-07 11:25:18 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6702).
+2016-10-07 11:25:29 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6721).
+2016-10-07 11:25:49 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6747).
+2016-10-07 11:25:59 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6757).
+2016-10-07 11:26:07 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6769).
+2016-10-07 11:26:14 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6772).
+2016-10-07 11:26:20 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6794).
+2016-10-07 11:26:28 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6795).
+2016-10-07 11:26:38 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6821).
+2016-10-07 11:26:46 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6855).
+2016-10-07 11:26:52 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6856).
+2016-10-07 11:26:59 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G6901).
+2016-10-07 11:33:43 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G7405).
+2016-10-07 11:34:01 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117732G7529).
+2016-10-07 11:50:34 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177332K936).
+2016-10-07 12:00:50 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(1177332I219).
+2016-10-07 12:06:30 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «u_sticker_producto»
+DETAIL:  Ya existe la llave (sticker_producto)=(117733391066).
+2016-10-07 12:07:52 ERROR  : ERROR:  error de sintaxis en o cerca de «NULL»
+2016-10-07 12:10:54 ERROR  : ERROR:  error de sintaxis en o cerca de «isNULL»
+2016-10-07 12:10:59 ERROR  : ERROR:  error de sintaxis en o cerca de «notisNULL»
+2016-10-07 12:11:04 ERROR  : ERROR:  error de sintaxis en o cerca de «noisNULL»
+2016-10-07 12:11:10 ERROR  : ERROR:  error de sintaxis en o cerca de «noNULL»
+2016-10-08 07:44:26 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-10-08 07:46:20 ERROR  : ERROR:  no existe el esquema «factura»
+2016-10-08 07:52:02 ERROR  : ERROR:  no se puede cambiar el tipo de retorno de una función existente
+HINT:  Use DROP FUNCTION facturas.f_obtener_factura() primero.
+2016-10-08 07:53:04 ERROR  : ERROR:  structure of query does not match function result type
+DETAIL:  La cantidad de columnas retornadas (6) no coincide con la cantidad esperada de columnas (7).
+CONTEXT:  función PL/pgSQL facturas.f_obtener_factura() en la línea 3 en RETURN QUERY
+2016-10-11 10:58:10 ERROR  : ERROR:  error de sintaxis en o cerca de «)»
+LINE 15:   )
+           ^
+2016-10-11 10:58:32 ERROR  : ERROR:  los tipos integer y character varying no son coincidentes en UNION
+LINE 10:     *
+             ^
+QUERY:  (
+			select
+				0::integer AS id,
+				'--Seleccione--'::character varying(50) AS nombre,
+				'--'::character varying(20) AS terminacion
+		)
+		union all
+		(
+			SELECT
+				*
+			FROM
+				idioma.idioma
+		)
+CONTEXT:  función PL/pgSQL idioma.f_obtener_idioma() en la línea 3 en RETURN QUERY
+2016-10-11 10:59:03 ERROR  : ERROR:  structure of query does not match function result type
+DETAIL:  El tipo retornado integer no coincide con el tipo de registro esperado character varying(50) en la columna 1.
+CONTEXT:  función PL/pgSQL idioma.f_obtener_idioma() en la línea 3 en RETURN QUERY
+2016-10-11 11:05:45 ERROR  : ERROR:  error de sintaxis en o cerca de «AS»
+LINE 6:   RETURNS SETOF  AS
+                         ^
+2016-10-11 11:24:10 ERROR  : ERROR:  error de sintaxis en o cerca de «idioma»
+LINE 1: idioma.f_obtener_idioma_formulario
+        ^
+2016-11-01 14:56:11 ERROR  : ERROR:  no existe la relación «usuarios»
+LINE 4:  usuarios
+         ^
+2016-11-01 14:56:21 ERROR  : ERROR:  no existe la relación «usuario»
+LINE 4:  usuario
+         ^
+2016-11-01 15:01:31 ERROR  : ERROR:  error de sintaxis en o cerca de «0»
+LINE 3:  0::integer alumno_id,
+         ^
+2016-11-01 15:01:45 ERROR  : ERROR:  error de sintaxis en o cerca de «0»
+LINE 3:  0::integer as alumno_id,
+         ^
+2016-11-01 15:02:08 ERROR  : ERROR:  no se puede cambiar el tipo de retorno de una función existente
+HINT:  Use DROP FUNCTION usuarios.f_obtener_estudiante() primero.
+2016-11-01 15:02:18 ERROR  : ERROR:  no existe la función usuarios.f_obtener_estudiante(character varying, character varying, character varying)
+2016-11-01 15:11:16 ERROR  : ERROR:  error de sintaxis en o cerca de «select»
+LINE 13:     select
+             ^
+2016-12-05 11:40:31 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-05 11:40:33 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-05 11:40:34 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-05 11:40:34 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-05 11:40:35 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-05 11:40:35 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-05 11:40:35 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-05 11:40:35 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-05 11:40:35 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-05 11:40:36 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-05 11:40:36 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-05 11:40:36 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-07 07:36:58 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-07 07:37:00 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-07 07:37:01 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-07 07:37:01 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-07 07:37:01 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-07 07:37:02 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-07 07:37:02 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-07 07:37:02 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-07 07:37:03 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-07 07:37:03 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-07 07:37:03 ERROR  : Column not found in pgSet: rolcatupdate
+2016-12-07 07:37:03 ERROR  : Column not found in pgSet: rolcatupdate
+2017-01-17 14:54:35 ERROR  : Column not found in pgSet: rolcatupdate
+2017-01-17 14:54:37 ERROR  : Column not found in pgSet: rolcatupdate
+2017-01-17 14:54:38 ERROR  : Column not found in pgSet: rolcatupdate
+2017-01-17 14:54:39 ERROR  : Column not found in pgSet: rolcatupdate
+2017-01-17 14:54:39 ERROR  : Column not found in pgSet: rolcatupdate
+2017-01-17 14:54:39 ERROR  : Column not found in pgSet: rolcatupdate
+2017-01-17 14:54:39 ERROR  : Column not found in pgSet: rolcatupdate
+2017-01-17 14:54:39 ERROR  : Column not found in pgSet: rolcatupdate
+2017-01-17 14:54:40 ERROR  : Column not found in pgSet: rolcatupdate
+2017-01-17 14:54:41 ERROR  : Column not found in pgSet: rolcatupdate
+2017-01-17 14:54:41 ERROR  : Column not found in pgSet: rolcatupdate
+2017-01-17 14:54:41 ERROR  : Column not found in pgSet: rolcatupdate
+2017-01-17 14:57:33 ERROR  : ERROR:  el valor null para la columna «id» viola la restricción not null
+DETAIL:  La fila que falla contiene (null, Sticker Nissan, 15, StickerNissan.aspx, 4, t, null, null).
+2017-01-17 15:01:17 ERROR  : ERROR:  el valor null para la columna «id_rol» viola la restricción not null
+DETAIL:  La fila que falla contiene (63, null, null, null).
+2017-02-01 14:46:53 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-01 14:46:54 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-01 14:46:55 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-01 14:46:55 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-01 14:46:55 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-01 14:46:55 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-01 14:46:55 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-01 14:46:55 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-01 14:46:56 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-01 14:46:56 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-01 14:46:57 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-01 14:46:57 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:42:39 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:42:40 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:42:40 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:42:40 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:42:41 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:42:41 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:42:41 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:42:41 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:42:41 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:42:42 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:42:42 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:42:42 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:46:22 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:46:24 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:46:25 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:46:25 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:46:25 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:46:25 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:46:26 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:46:27 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:46:27 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:46:28 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:46:28 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:46:28 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:51:23 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:51:24 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:51:24 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:51:25 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:51:25 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:51:25 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:51:25 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:51:25 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:51:26 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:51:26 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:51:26 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 10:51:26 ERROR  : Column not found in pgSet: rolcatupdate
+2017-02-10 11:14:18 ERROR  : ERROR:  inserción o actualización en la tabla «produccion» viola la llave foránea «fk_produccion_producto»
+DETAIL:  La llave (producto_id)=(-1) no está presente en la tabla «producto».
+2017-02-10 11:14:22 ERROR  : ERROR:  inserción o actualización en la tabla «produccion» viola la llave foránea «fk_produccion_producto»
+DETAIL:  La llave (producto_id)=(-1) no está presente en la tabla «producto».
+2017-02-10 11:14:57 ERROR  : ERROR:  inserción o actualización en la tabla «produccion» viola la llave foránea «fk_produccion_producto»
+DETAIL:  La llave (producto_id)=(-1) no está presente en la tabla «producto».
+2017-02-10 11:15:01 ERROR  : ERROR:  inserción o actualización en la tabla «produccion» viola la llave foránea «fk_produccion_producto»
+DETAIL:  La llave (producto_id)=(-1) no está presente en la tabla «producto».
+2017-02-10 11:15:12 ERROR  : ERROR:  inserción o actualización en la tabla «produccion» viola la llave foránea «fk_produccion_producto»
+DETAIL:  La llave (producto_id)=(2930) no está presente en la tabla «producto».
+2017-02-10 11:19:37 ERROR  : ERROR:  error de sintaxis en o cerca de «_id_serial»
+LINE 31:      _id_serial,
+              ^
+2017-02-10 11:19:44 ERROR  : ERROR:  error de sintaxis en o cerca de «END»
+LINE 37:   END IF
+           ^
+2017-02-10 11:19:47 ERROR  : ERROR:  error de sintaxis en o cerca de «)»
+LINE 38:   );
+           ^
+2017-02-10 11:19:52 ERROR  : ERROR:  error de sintaxis en o cerca de «IF»
+LINE 39:   IF _rol_id = 8  -- rol Distribuidor
+           ^
